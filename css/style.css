@@ -1,0 +1,125 @@
+
+
+.mynav {
+  background: #000;
+  opacity: 0.7;
+  
+ }
+  .mynav .navber-item {
+    padding-left: 1em; }
+  .mynav .navber-link {
+    text-transform: uppercase; }
+
+.carousel-item {
+  height: 500px; }
+
+  .slider-cap{
+    margin-bottom: 100px;
+  }
+.slider1{
+  background: url("../img/image1.jpeg");
+  /* background-position: center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.slider2{
+
+  background: url("../img/slider7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider3{
+  background: url("../img/slider8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;       
+
+}
+
+
+#get-start{
+  background: url("../img/slider3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.dark-overlay{
+  background: rgba(0, 0, 0, 0.7);
+  height:200px;
+  width: 100%;
+}
+
+
+#home-video{
+  background: url("../img/slider4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+.dark-overlay2{
+  background: rgba(0, 0, 0, 0.7);
+  height:200px;
+  width: 100%;
+}
+.fa-youtube-play{
+  color: red;
+}
+
+#gallary img{
+  max-height: 300px !important;
+}
+
+#sing-upform{
+  background: #343a40;
+}
+.home-footer{
+  background: #000;
+}
+
+
+/* about pages start here  */
+#head{
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+  height: 300px;
+  background-attachment: fixed;
+
+}
+#what-do img{
+  width: 350px;
+}
+
+
+#services-box .card{
+  box-sizing: 1px 1px 1px black;
+
+}
+
+
+
+@media(max-width:768px){
+  .dark-overlay{
+    height: 280px;
+  }
+
+}
+
+@media(max-width:576px){
+  .slider-cap h3{
+    font-size: 2.5rem;
+  }
+  .dark-overlay{
+    height: 320px;
+  }
+}
+@media(max-width:400px){
+  .dark-overlay{
+    height: 370px;
+}
+}
